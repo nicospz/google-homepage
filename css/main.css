@@ -222,10 +222,12 @@ input[type="submit"]:hover {
 
 .bottomlinks {
     padding-left: 27px;
+    color: rgba(0, 0, 0, 0.54);
 }
 
 .bottomrightlinks {
     padding-right: 27px;
+    color: rgba(0, 0, 0, 0.54);
 }
 
 .bot1 {
