@@ -29,11 +29,11 @@ nav .links a:hover {
     line-height: 28px;
     border-radius: 2px;
     outline: none;
-    cursor: deault;
+    cursor: default;
 }
 
 .signbutton:hover {
-    cursor: deault;
+    cursor: default;
 }
 
 .appsicon {
@@ -121,7 +121,7 @@ li {
     height: 34px;
     line-height: 34px;
     font: 16px arial, sans-serif;
-    padding: 0px 8px 0px 16px;
+    padding: 5px 8px 0px 16px;
     width: 520px;
     border: none;
 }
