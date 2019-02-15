@@ -3,6 +3,7 @@
     margin-right: auto;
     display: block;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .center {
@@ -44,4 +45,96 @@
     margin-top: 10px;
     display: inline-block;
     line-height: 28px;
+    color: #222;
 }
+
+.searchbarbox {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    height: 44px;
+    z-index:3;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border-radius: 2px;
+    width: 584px;
+}
+
+.searchbar {
+    height: 34px;
+    line-height: 34px;
+    font: 16px arial, sans-serif;
+    padding: 0px 8px 0px 16px;
+    width: 520px;
+    border: none;
+}
+
+.searchbar:focus {
+    outline-width: 0;
+}
+
+.searchbarbox:hover {
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.searchbuttons {
+    margin-top: 21px;
+}
+
+#voicesearch {
+    width: 24px;
+    height: 24px;
+    padding: 10px 0;
+}
+
+#voicesearch:hover {
+    cursor: pointer
+
+}
+
+#voicesearch {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+#tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 5;
+  }
+#voicesearch:hover #tooltiptext {
+    visibility: visible;
+}
+
+#voicesearch #tooltiptext {
+    top: -5px;
+    right: 105%; 
+    width: 120px;
+    top: 100%;
+    left: 50%; 
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    margin-top: 6px;
+}
+
+#tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+  }

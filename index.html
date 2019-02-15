@@ -9,16 +9,23 @@
 
 <body id="main">
     <div class="center">
-        <div>
+        <div class="logo">
             <img src="../img/google-logo.png" height="92" width="272" style="padding-top: 109px">
         </div>
         <form>
-            <div class="center">
-                <input style="text-align:center;" type="text" width="520px;">
+            <div class="searchbarbox">
+                <div>
+                    <input type="text" class="searchbar">
+                </div>
+                <div id="voicesearch">
+                        <img src="/img/mic.png" style="width: 24px; height: 24px;">
+                        <span id="tooltiptext">Search by voice</span>
+                </div>
             </div>
-            <div class="center">
+            <div class="searchbuttons">
                 <input type="submit" value="Google Search"> <input type="submit" value="I'm Feeling Lucky">
             </div>
+
         </form>
         <div id="lang">
             <p>Google offered in: <a href="">日本語</a></p>
