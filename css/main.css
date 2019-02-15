@@ -1,3 +1,59 @@
+nav {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 100%;
+    margin-right: 30px;
+    line-height: 28px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(34, 34, 34)
+}
+
+nav .links a:hover {
+    color: rgb(34, 34, 34);
+    text-decoration: underline;
+}
+
+
+.signbutton {
+    background-color: #4285f4;
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #4285f4;
+    padding: 0 12px;
+    font-weight: bold;
+    line-height: 28px;
+    border-radius: 2px;
+    outline: none;
+    cursor: deault;
+}
+
+.signbutton:hover {
+    cursor: deault;
+}
+
+.appsicon {
+    opacity: 0.55;
+}
+
+.icon {
+    vertical-align: middle;
+}
+
+.links {
+    margin-right: 30px;
+}
+
+li {
+    display: inline;
+    float: right;
+    margin: 0 0 0 15px;
+}
+
 .logo {
     margin-left: auto;
     margin-right: auto;
@@ -8,6 +64,7 @@
 
 .center {
     text-align: center;
+    margin-top: 140px;
 }
 
 #main {
