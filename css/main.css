@@ -8,8 +8,11 @@ nav {
 
 }
 
-nav a {
+a {
     text-decoration: none;
+}
+
+nav a {
     color: rgb(34, 34, 34)
 }
 
@@ -48,7 +51,7 @@ nav .links a:hover {
     margin-right: 30px;
 }
 
-li {
+.top {
     display: inline;
     float: right;
     margin: 0 0 0 15px;
@@ -59,21 +62,21 @@ li {
     margin-right: auto;
     display: block;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 .center {
     text-align: center;
-    margin-top: 140px;
+    margin-top: 90px;
 }
 
-#main {
+html {
     font-size: 13px;
     font-family: arial,sans-serif;
     color: rgb(34, 34, 34)
 }
 
-#main input[type="submit"] {
+input[type="submit"] {
     -webkit-border-radius: 2px;
     -webkit-user-select: none;
     background-color: #f2f2f2;
@@ -91,7 +94,7 @@ li {
 ;
 }
 
-#main input[type="submit"]:hover {
+input[type="submit"]:hover {
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     color: #222;
     border: 1px solid #c6c6c6;
@@ -195,3 +198,43 @@ li {
     border-style: solid;
     border-color: transparent transparent black transparent;
   }
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    color: rgba(0, 0, 0, 0.54);
+    width: 100%;
+    margin: 0 27px 0 0;
+    padding-right: 27px;
+  }
+
+.bottombars {
+    height: 41px;
+    background-color: #f2f2f2;
+    padding-left: 1px;
+    border-bottom-color: rgb(228, 228, 228);
+    border-bottom-style: solid;
+    border-bottom-width:1px;
+    line-height: 40px;
+    float:left;
+    width: 100%;
+}
+
+.bottomlinks {
+    padding-left: 27px;
+}
+
+.bottomrightlinks {
+    padding-right: 27px;
+}
+
+.bot1 {
+    display: inline;
+    float: left;
+}
+
+
+.bot2 {
+    display: inline;
+    float: right;
+}
